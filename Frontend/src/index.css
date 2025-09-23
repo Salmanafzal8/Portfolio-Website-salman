@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+
+body {
+  @apply bg-white text-gray-900 font-mono;
+}
+
+/* 🎨 Custom Colors */
+:root {
+  --color-secondary: #D7D7D7 ; /* Tailwind's gray-500 */
+}
+
+/* 🟪 Custom Utilities */
+.clip-custom-shape {
+  clip-path: polygon(47% 0, 100% 0, 100% 100%, 34% 100%);
+}
