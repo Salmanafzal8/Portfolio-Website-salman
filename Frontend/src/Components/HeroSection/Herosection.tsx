@@ -7,7 +7,7 @@ import portfoliIcon from "../../../public/athterateicon.png";
 const Herosection: React.FC = () => {
   return (
     <div className="flex justify-around items-center ">
-      <div className=" h-screen w-full text-start bg=[#C4C4C4] flex justify-center items-center flex-col   text-black font-mono ">
+      <div className=" h-screen w-full text-start  flex justify-center items-center flex-col  text-black font-mono ">
         <div className="items-center ">
           <h4 className="text-xl py-5 font-semibold hover:text-amber-100">
             HI, I am
