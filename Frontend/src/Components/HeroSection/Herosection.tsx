@@ -30,7 +30,7 @@ const Herosection: React.FC = () => {
         className="h-screen bg-black w-full"
         style={{ clipPath: "polygon(10% 0, 100% 0, 100% 100%, 0 100%)" }}
       >
-        <img src={image} alt="Engineer Image" className="ml-12" />
+        <img src={image} alt="Engineer Image" className="ml-1" />
       </div>
     </div>
   );

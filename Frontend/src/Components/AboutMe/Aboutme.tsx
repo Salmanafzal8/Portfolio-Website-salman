@@ -21,7 +21,6 @@ const Aboutme = () => {
         <img src={vectorDown} alt="Separator" className="mt-4" />
       </div>
 
-      {/* Mobile responsive section for Design and Development */}
       <div className="flex flex-col md:flex-row justify-center items-center mt-12 px-6">
         <div className="mb-8 mx-4">
           <img src={designHeadingLogo} alt="designHeadingLogo" />
@@ -41,8 +40,7 @@ const Aboutme = () => {
         </div>
       </div>
 
-      {/* Centered and responsive Maintenance section */}
-      <div className="flex flex-col justify-center items-start md:mx-[30%] sm:mx-0 mt-8 px-4">
+      <div className="flex flex-col justify-center items-start text-balance md:mx-[30%] sm:mx-0 mt-8 px-4 pl-10">
         <img src={maintainanceLogo} alt="maintainanceLogo" className="mb-4" />
         <h2 className="text-2xl  font-semibold -mt-10">MAINTENANCE</h2>
         <p className="text-lg ">
