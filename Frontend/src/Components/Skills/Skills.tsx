@@ -33,10 +33,10 @@ function Skills() {
         {skilllist.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col justify-center items-center "
+            className="flex flex-col justify-center items-center  "
           >
             <img src={item.imgsrc} alt={item.text} />
-            <p className="pt-1 text-2xl">{item.text}</p>
+            <p className="pt-2 text-2xl">{item.text}</p>
           </div>
         ))}
       </div>

@@ -15,7 +15,7 @@ const Aboutme = () => {
           foundation in Git for version control and a continuous learner
           committed to improving technical skills across the full stack.
         </p>
-        <button className="border-2 px-4 py-2 font-bold rounded-lg hover:bg-gray-300 transition-all">
+        <button className="border-l-2 border-r-2  px-4 py-2 font-bold hover:bg-gray-300 transition-all">
           Explore
         </button>
         <img src={vectorDown} alt="Separator" className="mt-4" />
