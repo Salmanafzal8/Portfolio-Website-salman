@@ -1,6 +1,6 @@
 import React from "react";
 import PortfolioTopImage from "../../../public/portfolioTopImage.png";
-import HeadingButton from "../HeadingButton/HeadingButton";
+import HeadingButton from "../HeadingButton";
 import ProjectImage1 from "../../../public/Project1.png";
 import ProjectImage2 from "../../../public/Project2.png";
 import ProjectImage3 from "../../../public/Project3.png";

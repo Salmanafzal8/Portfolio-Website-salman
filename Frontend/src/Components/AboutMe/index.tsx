@@ -1,6 +1,5 @@
-import React from "react"; 
 import vectorDown from "../../../public/separatorBlack 1.png"; 
-import HeadingButton from "../HeadingButton/HeadingButton"; 
+import HeadingButton from "../HeadingButton"; 
 import designHeadingLogo from "../../../public/Design Logo.png"; 
 import devlopmentLogo from "../../../public/Development Logo.png"; 
 import maintainanceLogo from "../../../public/Maintenance logo.png"; 

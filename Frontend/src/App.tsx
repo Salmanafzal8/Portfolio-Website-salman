@@ -1,29 +1,28 @@
-import './App.css'
-import Aboutme from './Components/AboutMe/Aboutme'
-import Contact from './Components/Contact/Contact'
-import Description from './Components/Description/Description'
-import Herosection from './Components/HeroSection/Herosection'
-import Learning from './Components/Learning/Learning'
-import Portfolio from './Components/Portfolio/Portfolio'
-import Skills from './Components/Skills/Skills'
-import Footer from './Layout/Footer'
-import Navbar from './Layout/Navbar'
+import type React from "react";
+import "./App.css";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Contactme from "./Pages/ContactMe";
+import PortfolioPage from "./Pages/PortfolioPage";
+import SkillsPage from "./Pages/SkillsPage";
+import About from "./Pages/About";
+import PageNotFound from "./Pages/PageNotFound";
+import Home from "./Pages/Home";
 
-function App() {
-
+const App: React.FC = () => {
   return (
-    <div className='h-screen bg-[var(--color-secondary)]'>
-    <Navbar/>
-    <Herosection/>
-    <Description/>
-    <Aboutme/>
-    <Skills/>
-    <Learning/>
-    <Portfolio/>
-    <Contact/>
-    <Footer/>
+    <div className="h-screen bg-[var(--color-secondary)]">
+      <Router>
+        <Routes>
+          <Route path="/" element= {<Home/>} />
+          <Route path="/about" element= {<About/>} />
+          <Route path="/contact" element= {<Contactme/>} />
+          <Route path="/portfolio" element= {<PortfolioPage/>} />
+          <Route path="/skills" element= {<SkillsPage/>} />
+          <Route path="*" element= {<PageNotFound/>} />
+        </Routes>
+      </Router>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

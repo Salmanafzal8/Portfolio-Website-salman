@@ -1,5 +1,5 @@
 import React from "react";
-import HeadingButton from "../HeadingButton/HeadingButton";
+import HeadingButton from "../HeadingButton";
 import htmlLogo from "../../../public/htmllogo.svg";
 import cssLogo from "../../../public/cssLogo.svg";
 import saasLogo from "../../../public/sassLogo.svg";

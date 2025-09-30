@@ -1,5 +1,4 @@
-import React from "react";
-import HeadingButton from "../HeadingButton/HeadingButton";
+import HeadingButton from "../HeadingButton";
 import vectorDown from "../../../public/separatorBlack 1.png";
 
 function Contact() {
